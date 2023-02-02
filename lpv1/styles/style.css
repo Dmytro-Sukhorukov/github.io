@@ -895,12 +895,35 @@ body {
   .promo__title {
     min-height: 164px;
     font-size: 23px;
-    /* padding: 24px 236px 0; */
+    padding-top: 26px;
   }
 
   .promo__image {
+    position: relative;
     transform: translate(35px, -42px);
     margin-bottom: 55px;
+  }
+
+  .promo__image:before {
+    content: "";
+    width: 104px;
+    height: 120px;
+    background-image: url(../images/promo-coins-left-mob.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -61px;
+    left: -84px;
+  }
+
+  .promo__image:after {
+    content: "";
+    width: 89px;
+    height: 113px;
+    background-image: url(../images/promo-coins-right-mob.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -125px;
+    right: -24px;
   }
 
   .promo__text {
@@ -1265,12 +1288,24 @@ body {
   }
 
   .games__slots_topImg {
+    position: relative;
     margin: 0 auto;
     margin-bottom: -5px;
   }
   .games__slots_topImg img {
     max-width: fit-content;
     transform: translateY(-13px);
+  }
+
+  .games__slots_topImg:before {
+    content: "";
+    width: 52px;
+    height: 56px;
+    background-image: url(../images/slots_coin_left_mob.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -61px;
+    left: -10px;
   }
 
   .games__slots_bg {
@@ -2066,7 +2101,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   min-height: 3147px;
-  padding-top: 652px;
+  padding-top: 646px;
   margin-top: -866px;
   margin-bottom: -406px;
 }
@@ -2308,7 +2343,7 @@ body {
 /* JACKPOT SLIDER */
 
 .jackpot-sl {
-  padding: 209px 0 80px;
+  padding: 203px 0 80px;
   background: #000000;
 }
 
@@ -2368,7 +2403,7 @@ body {
   position: absolute;
   width: 279px;
   height: 638px;
-  top: -264px;
+  top: -506px;
   right: -317px;
 }
 
@@ -2591,17 +2626,17 @@ body {
   .jackpot-sl__subtitle-2:before {
     content: "";
     width: 140px;
-    height: 430px;
+    height: 449px;
     background-image: url(../images/jackpot_coins_left_mob.png);
-    top: -437px;
-    left: -131px;
+    top: -448px;
+    left: -121px;
   }
 
   .jackpot-sl__subtitle-2:after {
     width: 220px;
-    height: 428px;
+    height: 561px;
     background-image: url(../images/jackpot_coins_right_mob.png);
-    top: -220px;
+    top: -349px;
     right: -153px;
   }
 
@@ -3015,6 +3050,17 @@ body {
 
   .banner__wrapper {
     position: relative;
+  }
+
+  .banner__wrapper:after {
+    content: "";
+    width: 220px;
+    height: 428px;
+    background-image: url(../images/banner-chips-left-tab.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -326px;
+    right: -33px;
   }
 
   .banner__ribbon {
