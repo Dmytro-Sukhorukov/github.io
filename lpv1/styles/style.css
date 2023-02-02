@@ -2946,6 +2946,17 @@ body {
   position: relative;
 }
 
+.banner__wrapper:before {
+  content: "";
+  width: 220px;
+  height: 428px;
+  background-image: url(../images/banner_card_left_desk.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: -387px;
+  left: 66px;
+}
+
 .banner__ribbon {
   transform: translate(8px, 17px);
   margin-bottom: 34px;
@@ -3050,6 +3061,10 @@ body {
 
   .banner__wrapper {
     position: relative;
+  }
+
+  .banner__wrapper:before {
+    display: none;
   }
 
   .banner__wrapper:after {
@@ -3160,6 +3175,10 @@ body {
 
   .banner__wrapper {
     position: relative;
+  }
+
+  .banner__wrapper:before {
+    display: none;
   }
 
   .banner__ribbon {

@@ -2948,6 +2948,17 @@ body {
   position: relative;
 }
 
+.banner__wrapper:before {
+  content: "";
+  width: 220px;
+  height: 428px;
+  background-image: url(../images/banner_card_left_desk.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: -387px;
+  left: 66px;
+}
+
 .banner__ribbon {
   transform: translate(8px, 17px);
   margin-bottom: 34px;
@@ -3054,6 +3065,21 @@ body {
     position: relative;
   }
 
+  .banner__wrapper:before {
+    display: none;
+  }
+
+  .banner__wrapper:after {
+    content: "";
+    width: 220px;
+    height: 428px;
+    background-image: url(../images/banner-chips-left-tab.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -326px;
+    right: -33px;
+  }
+
   .banner__ribbon {
     transform: translate(-59px, -34px);
     margin-bottom: -21px;
@@ -3151,6 +3177,10 @@ body {
 
   .banner__wrapper {
     position: relative;
+  }
+
+  .banner__wrapper:before {
+    display: none;
   }
 
   .banner__ribbon {
