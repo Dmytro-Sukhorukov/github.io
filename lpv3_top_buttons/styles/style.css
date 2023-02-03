@@ -499,14 +499,17 @@ body {
   }
 
   .header__logo {
-    position: unset;
-    max-width: 213px;
+    position: absolute;
+    max-width: 149px;
     margin-bottom: 8px;
+    top: 9px;
+    left: -6px;
   }
 
   .header__title {
     font-size: 24px;
     margin-bottom: 7px;
+    padding-top: 98px;
   }
 
   .header__subtitle {
@@ -520,10 +523,10 @@ body {
   }
 
   .header__buttons {
-    top: 641px;
-    right: 84px;
+    top: 20px;
+    right: -4px;
     z-index: 2;
-    column-gap: 15px;
+    column-gap: 9px;
   }
 
   .header__logIn {
