@@ -297,15 +297,6 @@ body {
   margin-bottom: -6px;
 }
 
-.header__buttons {
-  position: absolute;
-  top: -38px;
-  right: 10px;
-  display: flex;
-  justify-content: center;
-  column-gap: 36px;
-}
-
 .header__button_register {
   display: flex;
   justify-content: center;
@@ -348,6 +339,56 @@ body {
 }
 
 .header__button_freeSpins:hover {
+  transform: scale(1.06);
+}
+
+.header__buttons {
+  position: absolute;
+  bottom: -865px;
+  right: 370px;
+  display: flex;
+  justify-content: center;
+  column-gap: 36px;
+  z-index: 1;
+}
+
+.header__logIn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 124px;
+  height: 48px;
+  border: 2px solid #ff0049;
+  border-radius: 61.783px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 125%;
+  text-align: center;
+  color: #ffffff;
+  transition: 0.2s ease all;
+}
+
+.header__logIn:hover {
+  transform: scale(1.06);
+}
+
+.header__signUp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 171px;
+  height: 48px;
+  background: #ff0049;
+  border-radius: 61.783px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 125%;
+  text-align: center;
+  color: #ffffff;
+  transition: 0.2s ease all;
+}
+
+.header__signUp:hover {
   transform: scale(1.06);
 }
 
@@ -411,7 +452,9 @@ body {
   }
 
   .header__buttons {
-    top: -40px;
+    top: 1065px;
+    left: 39px;
+    z-index: 1;
   }
 
   .header__button_freeSpins {
@@ -475,7 +518,7 @@ body {
   }
 
   .header__buttons {
-    top: 565px;
+    top: 641px;
     right: 84px;
     z-index: 2;
     column-gap: 15px;
@@ -505,11 +548,11 @@ body {
 /** join */
 
 .join {
-  padding: 201px 0 23px;
+  padding: 282px 0 23px;
   background-image: url(../images/join-bg-desk.jpg);
   background-position: top center;
   background-repeat: no-repeat;
-  min-height: 1065px;
+  min-height: 890px;
 }
 
 .join__container {
@@ -577,7 +620,6 @@ body {
   line-height: 125%;
   text-align: center;
   color: #ffffff;
-  margin-bottom: 280px;
   transition: 0.2s ease all;
 }
 
@@ -599,11 +641,11 @@ body {
 
 @media (min-width: 768px) and (max-width: 1199px) {
   .join {
-    padding: 157px 0 23px;
+    padding: 176px 0 23px;
     background-image: url(../images/join-bg-tab.jpg);
     background-position: top center;
     background-repeat: no-repeat;
-    min-height: 911px;
+    min-height: 833px;
   }
 
   .join__container {
@@ -649,7 +691,7 @@ body {
 
   .join__button {
     margin: 0 auto 0 calc(50% - 189px);
-    margin-bottom: 194px;
+    margin-bottom: 0;
   }
 
   .join__button:hover {
@@ -665,10 +707,9 @@ body {
 
 @media (max-width: 767px) {
   .join {
-    padding: 84px 0 34px;
+    padding: 120px 0 34px;
     background-image: url(../images/join-bg-mob.jpg);
-    background-position-y: -72px;
-    min-height: 1138px;
+    min-height: 990px;
   }
 
   .join__container {
@@ -700,7 +741,7 @@ body {
   .join__button {
     width: 299px;
     height: 41px;
-    margin: 0 auto 150px calc(50% - 150px);
+    margin: 0 auto 0 calc(50% - 150px);
     font-size: 15px;
   }
 
