@@ -272,7 +272,7 @@ body {
 /** header */
 
 .header {
-  padding: 46px 0 23px;
+  padding: 187px 0 23px;
   background-image: url(../images/top-bg-desk-1.jpg);
   background-position: top center;
   background-repeat: no-repeat;
@@ -293,63 +293,19 @@ body {
 }
 
 .header__logo {
-  max-width: 441px;
-  margin-bottom: -6px;
-}
-
-.header__button_register {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  background: #ff0049;
-  border-radius: 95.8159px;
-  width: 413px;
-  height: 58px;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 125%;
-  text-align: center;
-  color: #ffffff;
-  margin-bottom: 235px;
-  transition: 0.2s ease all;
-}
-
-.header__button_register:hover {
-  transform: scale(1.06);
-}
-
-.header__button_freeSpins {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  max-width: 223px;
   position: absolute;
-  top: 775px;
-  left: 405px;
-  width: 271px;
-  height: 46px;
-  border: 2px solid #ff0049;
-  border-radius: 50px;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 125%;
-  color: #ffffff;
-  transition: 0.2s ease all;
-}
-
-.header__button_freeSpins:hover {
-  transform: scale(1.06);
+  top: -150px;
+  left: 14px;
 }
 
 .header__buttons {
   position: absolute;
-  bottom: -865px;
-  right: 370px;
+  top: -146px;
+  right: 10px;
   display: flex;
   justify-content: center;
   column-gap: 36px;
-  z-index: 1;
 }
 
 .header__logIn {
@@ -392,6 +348,51 @@ body {
   transform: scale(1.06);
 }
 
+.header__button_register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background: #ff0049;
+  border-radius: 95.8159px;
+  width: 413px;
+  height: 58px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 125%;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 235px;
+  transition: 0.2s ease all;
+}
+
+.header__button_register:hover {
+  transform: scale(1.06);
+}
+
+.header__button_freeSpins {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 634px;
+  left: 405px;
+  width: 271px;
+  height: 46px;
+  border: 2px solid #ff0049;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 125%;
+  color: #ffffff;
+  transition: 0.2s ease all;
+}
+
+.header__button_freeSpins:hover {
+  transform: scale(1.06);
+}
+
 .header__logo img {
   width: 100%;
   height: 100%;
@@ -423,7 +424,7 @@ body {
 
 .header__image {
   position: absolute;
-  top: 448px;
+  top: 307px;
   left: -404px;
 }
 
@@ -447,14 +448,13 @@ body {
   }
 
   .header__logo {
-    max-width: 369px;
-    margin-bottom: 12px;
+    max-width: 150px;
+    top: -42px;
+    left: 8px;
   }
 
   .header__buttons {
-    top: 1065px;
-    left: 378px;
-    z-index: 1;
+    top: -40px;
   }
 
   .header__button_freeSpins {
@@ -470,6 +470,7 @@ body {
     font-size: 52px;
     line-height: 126.1%;
     margin-bottom: 9px;
+    padding-top: 151px;
   }
 
   .header__subtitle {
@@ -498,6 +499,7 @@ body {
   }
 
   .header__logo {
+    position: unset;
     max-width: 213px;
     margin-bottom: 8px;
   }
@@ -548,11 +550,11 @@ body {
 /** join */
 
 .join {
-  padding: 282px 0 23px;
+  padding: 202px 0 23px;
   background-image: url(../images/join-bg-desk.jpg);
   background-position: top center;
   background-repeat: no-repeat;
-  min-height: 890px;
+  min-height: 787px;
 }
 
 .join__container {
@@ -641,7 +643,7 @@ body {
 
 @media (min-width: 768px) and (max-width: 1199px) {
   .join {
-    padding: 176px 0 23px;
+    padding: 154px 0 23px;
     background-image: url(../images/join-bg-tab.jpg);
     background-position: top center;
     background-repeat: no-repeat;
@@ -751,3 +753,5 @@ body {
     padding: 0 4px;
   }
 }
+
+/** promo */
