@@ -712,7 +712,7 @@ body {
 
 @media (max-width: 767px) {
   .join {
-    padding: 120px 0 34px;
+    padding: 91px 0 34px;
     background-image: url(../images/join-bg-mob.jpg);
     min-height: 990px;
   }
